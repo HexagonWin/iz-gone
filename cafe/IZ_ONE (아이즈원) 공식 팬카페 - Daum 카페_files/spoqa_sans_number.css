@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'SpoqaSansNumber';
+	font-weight: 400;
+	src: local('SpoqaSansNumberRegular'),
+	url(SpoqaSansNumberRegular.eot) format('embedded-opentype'),
+	url(SpoqaSansNumberRegular.woff2) format('woff2'),
+	url(NotoSansKrRegular.woff) format('woff'),
+	url(NotoSansKrRegular.ttf) format('ttf');
+	unicode-range: U+0021-007e,U+0030-0039;
+}
+
+@font-face {
+	font-family: 'SpoqaSansNumber';
+	font-weight: 700;
+	src: local('SpoqaSansNumberBold'),
+	url(SpoqaSansNumberBold.eot) format('embedded-opentype'),
+	url(SpoqaSansNumberBold.woff2) format('woff2'),
+	url(NotoSansKrBold.woff) format('woff'),
+	url(NotoSansKrBold.ttf) format('ttf');
+	unicode-range: U+0021-007e,U+0030-0039;
+}

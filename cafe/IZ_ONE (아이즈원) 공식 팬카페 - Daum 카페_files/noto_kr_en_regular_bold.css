@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'NotoSansKr';
+	font-weight: 400;
+	src: local('NotoSansKrRegular'),
+	url(NotoSansKrRegular.eot) format('embedded-opentype'),
+	url(NotoSansKrRegular.woff2) format('woff2'),
+	url(NotoSansKrRegular.woff) format('woff'),
+	url(NotoSansKrRegular.tff) format('tff');
+	unicode-range: U+0021-007e,U+3131-318E,U+AC00-D7A3;
+}
+
+@font-face {
+	font-family: 'NotoSansKr';
+	font-weight: 700;
+	src: local('NotoSansKrBold'),
+	url(NotoSansKrBold.eot) format('embedded-opentype'),
+	url(NotoSansKrBold.woff2) format('woff2'),
+	url(NotoSansKrBold.woff) format('woff'),
+	url(NotoSansKrBold.tff) format('tff');
+	unicode-range: U+0021-007e,U+3131-318E,U+AC00-D7A3;
+}
