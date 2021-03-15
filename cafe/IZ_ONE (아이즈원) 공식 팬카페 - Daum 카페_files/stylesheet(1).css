@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'NotoSansKr';
+	src: url('NotoSansKoreanLight.eot');
+	src: url('NotoSansKoreanLight.eot?#iefix') format('embedded-opentype'),
+	url('NotoSansKoreanLight.woff2') format('woff2'),
+	url('NotoSansKoreanLight.woff') format('woff'),
+	url('NotoSansKoreanLight.tff') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	unicode-range: U+3131-318E,U+AC00-D7A3;
+}
+
+@font-face {
+	font-family: 'NotoSansKr';
+	src: url('NotoSansKoreanRegular.eot');
+	src: url('NotoSansKoreanRegular.eot?#iefix') format('embedded-opentype'),
+	url('NotoSansKoreanRegular.woff2') format('woff2'),
+	url('NotoSansKoreanRegular.woff') format('woff'),
+	url('NotoSansKoreanRegular.tff') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	unicode-range: U+3131-318E,U+AC00-D7A3;
+}
+
+@font-face {
+	font-family: 'NotoSansKr';
+	src: url('NotoSansKoreanBold.eot');
+	src: url(NotoSansKoreanBold.eot?#iefix) format('embedded-opentype'),
+	url(NotoSansKoreanBold.woff2) format('woff2'),
+	url(NotoSansKoreanBold.woff) format('woff'),
+	url(NotoSansKoreanBold.tff) format('truetype');
+	font-weight: 700;
+	font-style: normal;
+	unicode-range: U+3131-318E,U+AC00-D7A3;
+}
