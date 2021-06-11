@@ -1,0 +1,20 @@
+(function() {
+
+  //ページトップへ
+  $(document).ready(function() {
+    var pagetop = $('.js-to-page-top');
+    pagetop.fadeOut();
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 100) {
+        pagetop.fadeIn();
+      } else {
+        pagetop.fadeOut();
+      }
+    });
+    pagetop.click(function () {
+      $('body, html').animate({ scrollTop: 0 }, 500);
+      return false;
+    });
+  });
+
+})();

@@ -1,0 +1,100 @@
+ @charset "utf-8";
+/*=======================================================
+ CD FAQ
+ =======================================================*/
+#cdFaqArea {
+	font-size: 13px;
+}
+#cdFaqArea .topTxt {
+	font-size: 15px;
+	color: #f24098;
+	padding: 1em 1em 0 1em;
+}
+#cdFaqArea h3 {
+	border-bottom: 2px solid #cccccc;
+	padding-left: 64px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: normal;
+	border-left:0;
+}
+
+h3.title01 { background:url(../img/faq/ico_01.png) no-repeat .6em center; background-size: 12% auto; }
+h3.title02 { background:url(../img/faq/ico_02.png) no-repeat .6em center; background-size: 12% auto; }
+h3.title03 { background:url(../img/faq/ico_03.png) no-repeat .6em center; background-size: 12% auto; }
+h3.title035 { background:url(../img/faq/ico_035.png) no-repeat .6em center; background-size: 12% auto; }
+h3.title04 { background:url(../img/faq/ico_04.png) no-repeat .6em center; background-size: 12% auto; }
+h3.title05 { background:url(../img/faq/ico_05.png) no-repeat .6em center; background-size: 12% auto; }
+h3.title06 { background:url(../img/faq/ico_06.png) no-repeat .6em center; background-size: 12% auto; }
+h3.title07 { background:url(../img/faq/ico_07.png) no-repeat .6em center; background-size: 12% auto; }
+h3.title08 { background:url(../img/faq/ico_08.png) no-repeat .6em center; background-size: 12% auto; }
+h3.title09 { background:url(../img/faq/ico_09.png) no-repeat .6em center; background-size: 12% auto; }
+h3.title10 { background:url(../img/faq/ico_10.png) no-repeat .6em center; background-size: 11% auto; }
+
+
+#cdFaqArea .navi {
+	margin: 0 0 4em 0;
+	overflow: hidden;
+	font-size: 82.5%;
+}
+#cdFaqArea .navi li {
+	float: left;
+	width: 50%;
+	border: 1px solid #cccccc;
+	padding-left: .6em;
+	background: #ededed url(https://izone-shop.com/assets/img/faq/arrow_r.png) no-repeat 98% center;
+	background-size: 10% auto;
+	color: #4b4b4b;
+}
+#cdFaqArea .navi li:nth-child(even){
+	margin-right: 0;
+}
+#cdFaqArea .navi li a {
+	display: inline-block;
+	padding: 1.4em 0;
+}
+#cdFaqArea .navi li a:hover {
+}
+#cdFaqArea .navi li a.double {
+	padding: .66em 0;
+}
+#cdFaqArea dl.acc {
+	margin: 0 auto 30px;
+	padding: 10px 0;
+}
+#cdFaqArea dl.acc dt {
+	background: url(../img/faq/open.png) 97% center no-repeat;
+		background-size: 7% auto;
+	border-bottom: 1px solid #efefef;
+	padding: 1em;
+	color: #333;
+	font-weight: bold;
+	cursor: pointer;
+}
+#cdFaqArea dl.acc dt.open {
+	background: url(../img/faq/close.png) 97% center no-repeat;
+		background-size: 7% auto;
+}
+#cdFaqArea dl.acc dt span {
+	background:url(../img/faq/ico_q.png) no-repeat left center;
+		background-size: 25px auto;
+padding: 8px 34px 8px 32px;
+    display: inline-block;
+}
+#cdFaqArea dl.acc dd {
+	background:url(../img/faq/ico_a.png) no-repeat 1em center;
+	padding: 1em 1em 1em 44px;
+		background-size: 7% auto;
+	display: none;
+	margin-bottom: 1.8em;
+}
+#cdFaqArea .pagetop {
+	text-align: right;}
+#cdFaqArea .anchorlink {
+ position: relative;
+ top: -60px;
+ display: block;
+}

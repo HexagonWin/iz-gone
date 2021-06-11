@@ -1,0 +1,111 @@
+  (function($) {
+    $(document).ready(function() {
+      $.slidebars();
+    });
+  }) (jQuery);
+	
+	//FAQアコーディオン	
+$(function(){
+    $(".acc dt").click(function(){
+        $(this).next("dd").slideToggle();
+        $(this).next("dd").siblings("dd").slideUp();
+        $(this).toggleClass("open");
+        $(this).siblings("dt").removeClass("open");
+    });
+});
+
+  // トップページカテゴリアンカーのスムーススクロール用
+  $(function(){
+      $('#inNav a[href^="#"]').click(function() {
+          var speed = 400;
+          var href= $(this).attr("href");
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          var headerHeight = $('header').height(); //ヘッダーの高さ
+          var position = target.offset().top - headerHeight; //ターゲットの座標からヘッダの高さ分引く
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+      });
+  });
+
+//アコーディオン　初回開いた状態
+    $(document).ready(function(){ 
+         $(".toggle_con").hide();
+         $(".switch").click(function(){
+        $(this).toggleClass("active").next().slideToggle("normal");
+        return false;
+    });
+   }); 
+
+//マイページアコーディオン
+$(function(){
+$(".accordion .toggleBtn").click(function(){
+    $(this).next(".inner_cont").slideToggle();
+    $(this).children("p").toggleClass("open");
+    $(this).toggleClass("open");
+});
+});
+
+//ページトップへ
+$(document).ready(function() {
+  var pagetop = $('.pagetop');
+    $(window).scroll(function () {
+       if ($(this).scrollTop() > 100) {
+            pagetop.fadeIn();
+       } else {
+            pagetop.fadeOut();
+            }
+       });
+       pagetop.click(function () {
+           $('body, html').animate({ scrollTop: 0 }, 500);
+              return false;
+   });
+});
+
+//アコーディオン
+$(document).ready(function() {  
+$('.accordion_dl dd').hide();
+$('.accordion_dl dt').click(function(){
+    $(this).toggleClass("active");   
+    $(this).siblings("dt").removeClass("active");
+    $(this).next("dd").slideToggle();
+    $(this).next("dd").siblings("dd").slideUp();
+});
+});
+
+//カテゴリーから探す
+$(document).ready(function() {  
+   $('.level1 .head').click(function() {
+    $(this).toggleClass("active");   
+    $(this).parent().next('.level2').slideToggle('');
+   });
+ 
+   $('.level2 .head').click(function(e) {
+    $(this).toggleClass("active");   
+    $(this).next('.level3').slideToggle('');
+     e.stopPropagation();
+   });
+ });
+
+//商品一覧div a化
+$(function() {
+$('#listArea .itemBox').click(function() {
+location.href = $(this).find('a').attr('href');
+});
+});
+
+$(function() {
+$('.memberList .listArea').click(function() {
+location.href = $(this).find('a').attr('href');
+});
+});
+
+$(function() {
+    $("#tab li").click(function() {
+        var num = $("#tab li").index(this);
+        $(".content_wrap").addClass('disnon');
+        $(".content_wrap").eq(num).removeClass('disnon');
+        $("#tab li").removeClass('select');
+        $(this).addClass('select')
+    });
+});
+

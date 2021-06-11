@@ -1,0 +1,3 @@
+########Change URL to crawl other pages#########
+
+wget --recursive --page-requisites --no-clobber --convert-links --no-check-certificate --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36" --restrict-file-names=windows -w 0.1 --adjust-extension --span-hosts --domains izone-shop.com member.izone-official.com  https://izone-shop.com/

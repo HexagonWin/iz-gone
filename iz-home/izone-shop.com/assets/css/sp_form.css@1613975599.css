@@ -1,0 +1,617 @@
+/* -----------------------------------
+SP　フォームスタイル　ver.1
+sp_form.css
+-----------------------------------*/
+form {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border: 1px solid #dfdfdf;
+    font-size: 14px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+.loginTopArea {
+    padding: 10px;
+}
+
+.attention {
+    color: #ff50a0;
+}
+
+.attention_border {
+    border: 2px solid #ff50a0;
+    padding: .8em;
+    line-height: 1.6;
+    color: #ff50a0;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.attention_border .ico {
+    background: url(../img/common/ico_info.png) no-repeat left center;
+    background-size: 20px auto;
+    font-size: 144%;
+    padding-left: 25px;
+    padding-top: 4px;
+}
+
+.btnArea {
+    text-align: center;
+    padding: .6em;
+}
+
+.wide {
+    width: 100%;
+}
+
+.half {
+    width: 48%;
+}
+
+.short {
+    width: 28%;
+}
+
+.memory label {
+    width: 100%;
+    padding: 8px;
+    font-size: 125%;
+    background: #dfdfdf;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 5px 0;
+}
+
+.arrowRtxt {
+    display: inline;
+    clear: both;
+    margin: 5px auto;
+    padding-right: 15px;
+    background: url(../img/common/ico_arrowR.png) right center no-repeat;
+}
+
+.textLink {
+    text-align: center;
+    padding: .8em;
+}
+
+.btn_area input.button {
+    width: 100%;
+    background: #4b4b4b;
+    color: #fff;
+    font-size: 144%;
+    padding: 1em 0;
+}
+
+.loginBtmArea {
+    background: #dfdfdf;
+    padding: 10px;
+}
+
+.txtArea {
+    background: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 125%;
+    line-height: 1.6em;
+}
+
+h3 {
+    border-left-color: #ff50a0;
+}
+
+/*お届け先*/
+.message {
+    font-size: 125%;
+    line-height: 1.6;
+}
+
+.delivBox {
+    border: #CCC solid 1px;
+    margin-top: 1em;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.deliv_check {
+    clear: both;
+    margin: 0;
+}
+
+.deliv_check dt {
+    font-size: 144%;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    background: #EEE;
+    border-top: #FFF solid 1px;
+    vertical-align: middle;
+    position: relative;
+    display: block;
+}
+
+.deliv_check dt.first {
+    border-top: none;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+}
+
+.deliv_check dd {
+    font-size: 125%;
+    padding: 10px;
+    border-bottom: #CCC solid 1px;
+    display: block;
+}
+
+.btnSub {
+    margin: 10px 0;
+    width: 100%;
+    padding: .6em 1em;
+    font-size: 15px;
+    display: block;
+    background: #ffffff;
+    text-align: center;
+    border: 1px solid #ABABAB;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-weight: bold;
+}
+
+.btnRed {
+    width: 100%;
+    color: #FFF !important;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    padding: 1em;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: block;
+    background: #d8263c;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.btnBlue {
+    width: 100%;
+    color: #FFF !important;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    padding: 1em;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: block;
+    background: #ff7fb8;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.btnBack {
+    width: 100%;
+    font-size: 144%;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: .6em;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: block;
+    background: #efefef;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.member_info {
+    margin-bottom: 10px;
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.red {
+    color: #d8263c;
+}
+
+.pink {
+    color: #ff50a0;
+}
+
+.prefBtn {
+    border: 1px solid #CCCCCC;
+    font-size: 144%;
+    padding: .4em;
+}
+
+#payment {
+    font-size: 144%;
+    margin: 1em 0;
+}
+
+.deliv {
+    position: absolute;
+    bottom: -5px;
+    vertical-align: bottom;
+    right: 10px;
+}
+
+.formBox {
+    border: 1px solid #dfdfdf;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.formBoxAttention {
+    clear: both;
+    border: 1px solid #FF50A0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.formBoxAttention .ico {
+    background: url(../img/common/ico_info.png) no-repeat left center;
+    background-size: 15px auto;
+    font-size: 144%;
+    padding-left: 20px;
+    color: #FF50A0;
+}
+
+.formBox h3 {
+    margin: .4em;
+}
+
+.deliv_check ul.edit {
+    float: right;
+    clear: right;
+    display: inline;
+    line-height: 1.1;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+
+ul.edit li:first-child {
+    margin-right: 0.8em;
+}
+
+ul.edit li {
+    display: inline;
+    float: left;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+a.b_edit:link, a.b_edit:visited, a.b_edit:hover {
+    color: #000;
+    font-size: 11px;
+    padding: 4px 5px;
+    border: #CCC solid 1px;
+    background: #fff;
+    display: inline;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#credit_card_txt {
+    width: 90%;
+    margin: 2.5% auto 4%;
+    padding: 3%;
+    overflow: auto;
+    height: 150px;
+    border: 1px solid #ccc;
+}
+
+table {
+    width: 100%;
+    margin: 10px 0 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+    border: 1px solid #CCC;
+}
+
+table tr {
+    border-bottom: solid 1px #cccccc;
+}
+
+table th {
+    width: 30%;
+    padding: 2px 2%;
+    background-color: #f0f0f0;
+}
+
+table td {
+    width: 62%;
+    padding: 2px 2%;
+    background-color: #ffffff;
+    text-align: left;
+    text-indent: 0;
+}
+
+table td label {
+    padding: .6em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.cardBtn {
+    border: 1px solid #CCCCCC;
+    padding: .4em;
+}
+
+.delivBtn {
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    padding: .4em;
+    font-size: 125%;
+}
+
+.formBox .text {
+    padding: 10px;
+    margin: 0;
+}
+
+#cvsList label {
+    padding: .6em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 100%;
+    position: relative;
+    font-size: 125%;
+}
+
+#cvsList input {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    margin: -5px 0 0 0;
+    outline: 0 !important;
+    z-index: 1;
+}
+
+#cvsList .text {
+    padding-left: 45px;
+    display: block;
+}
+
+.btnGray {
+    margin: 10px 0;
+}
+
+.btnGray a {
+    width: 100%;
+    padding: .6em;
+    font-size: 125%;
+    display: block;
+    background: #ffffff;
+    border: 1px solid #ABABAB;
+    text-align: center;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.deliBox {
+    padding: .8em;
+    position: relative;
+}
+
+.lineBox {
+    border: 1px solid #ededed;
+    margin-bottom: 3em;
+}
+
+.lineBox h3 {
+    margin: .4em;
+}
+
+.lineBox p {
+    padding: 0 12px 12px 12px;
+}
+
+ul.edit {
+    float: right;
+    clear: right;
+    display: inline;
+    vertical-align: top;
+    line-height: 1;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+ul.edit li {
+    display: block;
+    float: none;
+    text-align: center;
+    font-size: 72.5%;
+    padding-bottom: 1em;
+    line-height: 1.8em;
+    margin: 0 0 1em 0 !important;
+    color: #333;
+}
+
+#contactList {
+    margin: 1em 0;
+}
+
+#searchList {
+    font-size: 125%;
+    margin: 0;
+}
+
+#searchList th {
+    width: 40%;
+    float: left;
+    padding: 1.2em;
+    background: #efefef;
+    clear: left;
+}
+
+#searchList td {
+    width: 60%;
+    padding: .8em;
+    float: left;
+}
+
+#searchList td select {
+    padding: 4px;
+    width: 100%;
+}
+
+.bgnone dt {
+    background: url(https://izone-shop.com/assets/css/none) !important;
+    padding-left: 1em;
+}
+
+.txtSold {
+    font-size: 125%;
+    padding: .8em;
+    text-align: right;
+}
+
+/*アコーディオン開いた状態*/
+.switch {
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    padding: 1.4em;
+    font-size: 115%;
+    border-bottom: 1px solid #ededed;
+    position: relative;
+    display: block;
+}
+
+.switch:before {
+    display: block;
+    content: "";
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 50%;
+    right: 15px;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    background: #cccccc;
+}
+
+.switch:after {
+    display: block;
+    content: "";
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 50%;
+    right: 15px;
+    width: 16px;
+    height: 16px;
+    margin-top: -16px;
+    background: #fff;
+}
+
+.switch.active:before {
+    margin-top: -2px;
+}
+
+.switch.active:after {
+    margin-top: 6px;
+}
+
+.toggle_con {
+    overflow: hidden;
+    padding: 0.6em;
+    background: #ededed;
+}
+
+.rightBox {
+    float: none;
+    width: auto;
+}
+
+.cardImg img {
+    width: 100%;
+}
+/*カテゴリ上部プルダウンリスト*/
+#searchTopArea {
+    background: #f7f7f7;
+    padding: 1em;
+    overflow: hidden;
+    font-size: 14px;
+    position: relative;
+}
+#searchTopArea ul {
+    width: 100%;
+}
+#searchTopArea ul li {
+}
+#searchTopArea ul li:first-child {
+    width: 100%;
+    text-align:center;
+    margin-bottom: 1em;
+}
+#searchTopArea ul li:nth-child(2) {
+    width: 74%;
+    margin-bottom: 1em;
+}
+#searchTopArea ul li:nth-child(3) {
+    width: 74%;
+}
+#searchTopArea ul li:nth-child(4) {
+    width: 24%;
+    float: right;
+}
+#searchTopArea ul li select {
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #f7f7f7;
+    background: #fff;
+    background: url(../img/common/category_list_arrow_sp.png) right 50% no-repeat, #fff;
+    background: url(../img/common/category_list_arrow_sp.png) right 50% no-repeat, #fff;
+    background-size: 20px, 100%;
+    text-indent: 1em;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    padding: 4px 0;
+    /* ↓矢印画像が文字と被ってしまうため取り急ぎ paddingで対応した */
+    padding-right: 22px;
+}
+#searchTopArea button {
+    background: #3598db;
+    color: #fff;
+    width: 24%;
+    border: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 2em 0;
+    position: absolute;
+    top: 48px;
+}

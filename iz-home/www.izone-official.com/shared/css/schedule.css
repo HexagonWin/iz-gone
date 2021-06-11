@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/*\*/
+
+/* ------------------------------------
+ * Over Ride
+ * ------------------------------------ */
+
+/* ------------------------------------
+ * LIST
+ * ------------------------------------ */
+
+.shedule-list {
+    width: 100%;
+}
+.shedule-list li {
+	margin-bottom: 20px;
+}
+.shedule-list dl {
+	display: table;
+	width: 100%;
+	padding:2%;
+    border: solid 1px #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2)
+}
+.shedule-list dl dt {
+	display: table-cell;
+	word-wrap: break-word;
+	width: 10%;
+	padding: 2.5em;
+	background: #ff50a0;
+	vertical-align: middle;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+    line-height: 1;
+    font-size: 11px;
+    border-radius: 8px;
+}
+.shedule-list dl dt span {
+	display: block;
+	font-size: 1.8rem;
+    font-family: Lato, sans-serif;
+}
+.shedule-list dl dd {
+	display: table-cell;
+	width: 90%;
+	padding: 0 0 0 1em;
+}
+.shedule-list dl dd h3 {
+	margin-bottom: 5px;
+}
+.shedule-list dl dd li {
+	margin: 0;
+	padding: 0.7em 0;
+	border-bottom: solid 1px #ede7ea;
+}
+.shedule-list dl dd li a {
+    position: relative;
+	display: block;
+	word-wrap: break-word;
+	padding: 0 8% 0 0;
+	text-decoration: none;
+}
+.shedule-list dl dd li a h3 {
+    -webkit-transition: color 0.3s ease;
+    transition: color .3s ease;
+}
+.shedule-list dl dd li:last-child {
+	border: none;
+}
+.shedule-list dl dd li a::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    width: 31px;
+    height: 5px;
+    background: url(https://web-m.webcdn.stream.ne.jp/www09/web-m/izone-official.com/shared/img/parts/arrow_list.png) no-repeat center center;
+    background-size: contain;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+}
+.shedule-list dl dd li a:hover::after {
+    right: 0;
+}
+.shedule-list dl dd li a:hover h3 {
+    color: #ff50a0;
+}
+.shedule-list dl dd li .cate span {
+    display: inline-block;
+    margin: 0 6px 6px 0;
+    padding: 0 10px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: baseline;
+    background-color: #ffecf8;
+    white-space: nowrap;
+    font-size: 1rem;
+    border: solid 1px #ff50a0;
+    border-radius: 3px;
+    color: #ff50a0;
+}
+
+@media (max-width: 767px) {
+	.shedule-list dl {
+		width: 100%;
+		margin:0 auto;
+		padding: 3%;
+        border-radius: 6px;
+	}
+	.shedule-list dl dt {
+		width: 20%;
+        padding: 2em;
+        border-radius: 6px;
+	}
+	.shedule-list dl dd {
+		width: 80%;
+	}
+	.shedule-list dl dd li {
+		padding: 1em 0;    
+    }    
+	.shedule-list dl dd li a {
+		padding: 0 8% 0 0;
+		background: none;
+	}
+	.shedule-list dl dd li a::after {
+        right: 0%;
+        width: 20px;
+        height: 5px;
+        background: url("https://web-m.webcdn.stream.ne.jp/www09/web-m/izone-official.com/shared/img/parts/arrow_list_sp.png") no-repeat center center;
+        background-size: contain;
+    }
+    .shedule-list dl dd h3 {
+        line-height: 1.4;
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 520px) {
+	.shedule-list dl dt {
+        padding: 2em 1em;
+        border-radius: 3px;
+    }
+}
+
+
+/* ------------------------------------
+ * Index
+ * ------------------------------------ */
+
+.link-text {
+    margin-top: 5%;
+}
+.link-text a {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff50a0;
+}
+.link-text a:hover {
+    color: #ff50a0;
+    opacity: 0.8;
+}
+.link-text a::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    margin-top: -5px;
+    background: url(https://web-m.webcdn.stream.ne.jp/www09/web-m/izone-official.com/shared/img/parts/icon_diamond.svg) no-repeat center center;
+    background-size: contain;
+}
+
+
+/*--- clearfix ------------------*/
+
+.clearfix:after {
+    clear: both;
+    display: block;
+    height: 0;
+    line-height: 0;
+    content: ".";
+    visibility: hidden;
+}
+

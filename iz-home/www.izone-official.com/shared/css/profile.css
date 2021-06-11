@@ -1,0 +1,238 @@
+@charset "UTF-8";
+/*\*/
+
+/* ------------------------------------
+ * Over Ride
+ * ------------------------------------ */
+
+
+
+/* ------------------------------------
+ * List
+ * ------------------------------------ */
+
+.profile-member ul {
+    zoom: 1;
+    overflow: hidden;
+}
+.profile-member li {
+    display: none;
+    width: 25%;
+    margin-bottom: 10px;
+    float: left;
+}
+.profile-member li a {
+    position: relative;
+    display: block;
+    width: 96%;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+}
+.profile-member li img {
+    width: 100%;
+}
+.profile-member li .profile-name {
+    position: relative;
+    opacity: 0;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.profile-member li .profile-name p {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(266,80,160,0.4);
+}
+.profile-member li .profile-name p span {
+    font-weight: bold;
+    color: #ffffff;
+    display: none;
+}
+.profile-member li a:hover .profile-name {
+    position: static;
+    opacity: 1;
+}
+.profile-member li a:hover img {
+    -ms-filter: blur(5px);
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+.profile-member li a:hover .profile-name p span {
+    display: block;
+}
+
+
+@media screen and (max-width: 767px) {
+    .profile-member li {
+        width: 50%;
+    }
+    .profile-member li .profile-name {
+        opacity: 1;
+    }
+    .profile-member li .profile-name p {
+        display: block;
+        position: static;
+        background: rgba(266,80,160,1);
+    }
+    .profile-member li a:hover img {
+        -webkit-filter: none;
+        filter: none;
+    }
+    .profile-member li .profile-name p span {
+        display: block;
+    }
+}
+@media screen and (max-width: 520px) {
+    .profile-member li .profile-name p {
+        overflow: hidden;
+    }
+    .profile-member li .profile-name p span {
+        font-size: 1.1rem;
+        font-weight: normal;
+    }
+}
+
+/* ------------------------------------
+ * Index
+ * ------------------------------------ */
+ 
+.profile-member-detail {
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+	display: flex;
+    margin: 5% 0 8%;
+}
+.profile-member-detail .photo {
+    width: 480px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+.profile-member-detail .photo img {
+    width: 100%;
+}
+.profile-member-detail .photo::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://web-m.webcdn.stream.ne.jp/www09/web-m/izone-official.com/shared/img/parts/spacer.gif") repeat;
+    background-size: 100% 100%;
+}
+.profile-member-detail .text {
+    width: calc(100% - 480px);
+    padding: 0 0 0 50px;
+}
+.profile-member-detail .text .profile-member-name h3 {
+    font-size: 4.5rem;
+    color: #ff50a0;
+}
+.profile-member-detail .text .profile-member-name p {
+    font-size: 2.5rem;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+}
+.profile-member-detail .text .profile-member-text {
+    margin: 5% 0;
+    line-height: 2;
+    font-weight: bold;
+}
+.profile-member-sns {
+    margin-top: 5%;
+}
+.profile-member-sns ul {
+    zoom: 1;
+    overflow: hidden;
+}
+.profile-member-sns ul li {
+    display: inline-block;
+    width: 40px;
+}
+.profile-member-sns ul li a {
+    display: block;
+    width: 30px;
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.profile-member-sns ul li a img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1199px) {
+    .profile-member-detail .text .profile-member-name h3 {
+        font-size: 4rem;        
+    }
+    .profile-member-detail .text .profile-member-name p {
+        font-size: 2.0rem;
+    }
+}
+
+@media screen and (max-width: 1039px) {
+    .profile-member-detail .photo {
+        width: 320px;
+    }
+    .profile-member-detail .text {
+        width: calc(100% - 320px);
+        padding: 0 0 0 50px;
+    }
+    .profile-member-detail .text .profile-member-name p {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .profile-member-detail {
+        display: block;
+    }
+    .profile-member-detail .photo {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .profile-member-detail .text {
+        width: 100%;
+        margin: 5% 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .profile-member-detail .text .profile-member-name h3 {
+        font-size: 2rem;
+    }
+    .profile-member-detail .text .profile-member-name p {
+        font-size: 1.5rem;
+    }
+}
+
+
+/*--- clearfix ------------------*/
+
+.profile-member ul:after,
+.profile-member-sns ul:after {
+    clear: both;
+    display: block;
+    height: 0;
+    line-height: 0;
+    content: ".";
+    visibility: hidden;
+}
+

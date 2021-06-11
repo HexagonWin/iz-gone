@@ -1,0 +1,422 @@
+@charset "UTF-8";
+
+/* ------------------------------------
+ * mainvisual
+ * ------------------------------------ */
+#mainvisual_animated {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+#mainvisual_animated .mainvisual_item img {
+	display: block;
+	width: 100%;
+}
+.parallax_bg {
+	width: 100%;
+	height: 0;
+	margin: 0 auto 2%;
+	padding-top: 62.9%;
+	background: url('../../izone/fanclub/home/mainvisual.jpg') no-repeat center bottom / 96%;
+	background-attachment: fixed;
+	box-sizing: border-box;
+}
+
+/* ------------------------------------
+ * for unsupported device & browser style
+ * ------------------------------------ */
+/* IE11 */
+_:-ms-lang(x)::-ms-backdrop, .loader_area , .loader img {
+	display: none !important;
+}
+
+/* ------------------------------------
+ * header
+ * ------------------------------------ */
+header {
+	position: absolute;
+	top: 0;
+}
+
+/* ------------------------------------
+ * main
+ * ------------------------------------ */
+main {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+}
+@media (max-width: 767px) {
+	main {
+		margin: 0 auto;
+	}
+}
+a {
+	word-break : break-all;
+}
+
+/* ------------------------------------
+ * Carousel：Slick Override
+ * ------------------------------------ */
+.carousel_bnr {
+	margin: 0 auto 3em !important;
+	padding: 2% 0 0;
+	z-index: 2;
+}
+.carousel_bnr .slick-prev,
+.carousel_bnr .slick-next {
+	display: none !important;
+	position: absolute;
+	width: 20px !important;
+	height: 45px !important;
+	padding: 0;
+	border: none;
+	background: transparent;
+	color: transparent;
+	font-size: 0;
+	line-height: 0;
+	cursor: pointer;
+	outline: none;
+	z-index: 2;
+	transition: all .4s ease-in;
+}
+.carousel_bnr .slick-prev:before,
+.carousel_bnr .slick-next:before {
+	display: none !important;
+}
+.carousel_bnr .slick-prev:hover,
+.carousel_bnr .slick-next:hover {
+	display: none !important;
+	opacity: 1;
+	transition: all .4s ease-in;
+}
+.carousel_bnr.multiple-items {
+	width: 100%;
+	margin: 0 auto;
+}
+.carousel_bnr.multiple-items li img {
+	display: block;
+	width: 93%;
+	margin: 0 auto;
+	border: solid 1px #ffffff;
+	text-align: center !important;
+	transition: all .1s ease-out;
+}
+.carousel_bnr.multiple-items li a:hover img {
+	margin-top: .6em;
+	box-shadow: .6em 1.7em 0 #ffe2ef;
+	transition: all .2s ease-in;
+}
+.slick-dots {
+	bottom: -30px !important;
+	padding: 0;
+}
+.slick-dots li {
+	margin: 0 .8% !important;
+}
+.slick-dots li:only-of-type {
+	display: none;
+}
+.slick-dots li button:before {
+	width: 3em;
+	height: 2em;
+	background: url(../../izone/fanclub/common/icon_dia.svg) no-repeat left top;
+	background-size: contain;
+	content: "";
+	opacity: .4;
+}
+.slick-dots li.slick-active button:before {
+	opacity: 1;
+}
+@media (max-width: 959px) {
+	.slick-dots li {
+		margin: 0 1.2% !important;
+	}
+	.slick-dots li button:before {
+		height: 2em;
+	}
+}
+
+/* ------------------------------------
+ *  FC NEWS
+ * ------------------------------------ */
+#fc_news_area {
+	width: 93%;
+	max-width: 1100px;
+	margin: 6% auto;
+}
+#fc_news_area > section {
+	position: relative;
+	padding: 6% 7%;
+	border: solid 2px #888888;
+	background: none;
+	z-index: 2;
+}
+#fc_news_area > section::before {
+	display: block;
+	position: absolute;
+	top: 1em;
+	left: .9em;
+	width: 100%;
+	height: 100%;
+	border: solid 1px #888888;
+	z-index: -1;
+	content: "";
+}
+#fc_news_area ul li a {
+	display: block;
+	width: 100%;
+	padding: 1em 0 0;
+	text-decoration: none;
+	transition: all 1s ease-in;
+}
+#fc_news_area ul li a dt span {
+	display: inline-block;
+	color: #afafaf;
+	font-size: .8em;
+	transition: all .3s ease-out;
+}
+#fc_news_area ul li a dt .new_arrival {
+	margin-left: .2em;
+	color: #ff50a0;
+}
+#fc_news_area ul li a:hover dt span {
+	color: #ff50a0;
+	transition: all .3s ease-in;
+}
+#fc_news_area ul li a dd {
+	color: #484848;
+	font-weight: 500;
+	transition: all .6s ease-out;
+}
+#fc_news_area ul li a:hover dd {
+	color: #ff50a0;
+	transition: all .3s ease-in;
+}
+#fc_news_area ul li a:after {
+	display: block;
+	width: 100%;
+	padding-bottom: 1em;
+	border-bottom: dashed 1px #888888;
+	transition: all 1s ease-out;
+	content: "";
+}
+#fc_news_area ul li a:hover:after {
+	width: 100%;
+	border-bottom: dashed 1px #ff50a0;
+	transition: all .8s ease-in;
+	content: "";
+}
+#fc_news_area .btn_area {
+	position: absolute;
+	top: 7%;
+	right: 7%;
+}
+#fc_news_area .heading_unique span {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0;
+	color: #484848;
+	font-weight: 400;
+	font-size: 5rem;
+	text-align: left;
+	line-height: 1;
+}
+#fc_news_area .heading_unique span:first-letter {
+	color: #ff50a0;
+}
+#fc_news_area .heading_unique span:after {
+	display: block;
+	position: absolute;
+	bottom: 4%;
+	right: -82%;
+	width: 81%;
+	height: 0;
+	padding-top: 12.3%;
+	vertical-align: bottom;
+	background: url(../../izone/fanclub/common/deco_slash_12.svg) no-repeat center center;
+	background-size: contain;
+	content: "";
+}
+@media (max-width: 767px) {
+	#fc_news_area > section {
+		padding: 7% 7%;
+	}
+	#fc_news_area ul li a {
+		padding: .6em 0 0;
+	}
+	#fc_news_area ul li a:before {
+		padding-bottom: .6em;
+	}
+	#fc_news_area .btn_area {
+		position: inherit;
+		top: 0%;
+		right: 0%;
+		margin: 4% auto 0;
+	}
+	#fc_news_area .heading_unique span {
+		font-size: 3.1rem;
+	}
+	#fc_news_area > section:before {
+		top: .5em;
+		left: .5em;
+	}
+}
+
+/* ------------------------------------
+ * member contents
+ * ------------------------------------ */
+#membersmenu_area {
+	width: 100%;
+	margin: 6% auto;
+	padding: 2%;
+	border-top-left-radius: 12em;
+	border-bottom-right-radius: 12em;
+	background: #ffe2ef;
+}
+#membersmenu_area > section {
+	width: 100%;
+	border: solid 2px #ffffff;
+	border-top-left-radius: 12em;
+	border-bottom-right-radius: 12em;
+}
+#membersmenu_area .heading_unique {
+	text-align: center;
+}
+#membersmenu_area .heading_unique span {
+	position: relative;
+	display: inline-block;
+	margin: 6% auto 3%;
+	padding: 0;
+	color: #484848;
+	font-weight: 400;
+	font-size: 8rem;
+	line-height: 1;
+}
+#membersmenu_area .heading_unique span:first-letter {
+	color: #ff50a0;
+}
+#membersmenu_area .heading_unique span:before {
+	display: block;
+	position: absolute;
+	top: -30%;
+	left: 1%;
+	width: 16%;
+	height: 0;
+	padding-top: 23.6%;
+	vertical-align: bottom;
+	background: url(../../izone/fanclub/common/deco_slash_6.svg) no-repeat center top;
+	background-size: contain;
+	content: "";
+}
+#membersmenu_area .heading_unique span:after {
+	display: block;
+	position: absolute;
+	top: 106%;
+	right: 1%;
+	width: 16%;
+	height: 0;
+	padding-top: 23.6%;
+	vertical-align: bottom;
+	background: url(../../izone/fanclub/common/deco_slash_6_black.svg) no-repeat center top;
+	background-size: contain;
+	content: "";
+}
+#membersmenu_area .membersmenu_list {
+	width: 93%;
+	max-width: 1100px;
+	margin: 2% auto 4%;
+	font-size: 0;
+	letter-spacing: normal;
+}
+#membersmenu_area .membersmenu_list li {
+	display: inline-block;
+	width: 33.333%;
+	padding: 2%;
+	vertical-align: top;
+}
+#membersmenu_area .membersmenu_list li a , #membersmenu_area .membersmenu_list li span , #membersmenu_area .membersmenu_list li img {
+	display: block;
+	width: 100%;
+}
+#membersmenu_area .membersmenu_list li.invalid_item {
+	position: relative;
+}
+#membersmenu_area .membersmenu_list li.invalid_item a {
+	pointer-events: none;
+	background: #000000;
+	text-decoration: none;
+}
+#membersmenu_area .membersmenu_list li.invalid_item a:after {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: calc(50% - 25px); 
+	left: 0; 
+	text-align: center; 
+	color: #ffffff; 
+	font-weight: 500; 
+	font-size: 25px;
+	line-height: 50px;
+	content: "Comingsoon";
+}
+#membersmenu_area .membersmenu_list li.invalid_item a svg {
+	opacity: .4;
+}
+@media (max-width: 959px) {
+	#membersmenu_area {
+		border-top-left-radius: 7em;
+		border-bottom-right-radius: 7em;
+	}
+	#membersmenu_area > section {
+		border-top-left-radius: 7em;
+		border-bottom-right-radius: 7em;
+	}
+	#membersmenu_area .heading_unique span {
+		font-size: 5rem;
+	}
+}
+@media (max-width: 767px) {
+	#membersmenu_area {
+		border-top-left-radius: 5em;
+		border-bottom-right-radius: 5em;
+	}
+	#membersmenu_area > section {
+		border-top-left-radius: 5em;
+		border-bottom-right-radius: 5em;
+	}
+	#membersmenu_area .heading_unique span {
+		font-size: 4rem;
+	}
+	#membersmenu_area .membersmenu_list li {
+		padding: .8%;
+	}
+	#membersmenu_area .membersmenu_list li.invalid_item a:after {
+		font-size: 1.7rem;
+	}
+}
+@media (max-width: 480px) {
+	#membersmenu_area {
+		border-top-left-radius: 3em;
+		border-bottom-right-radius: 3em;
+	}
+	#membersmenu_area > section {
+		border-top-left-radius: 3em;
+		border-bottom-right-radius: 3em;
+	}
+	#membersmenu_area .heading_unique span {
+		font-size: 2.8rem;
+	}
+	#membersmenu_area .membersmenu_list li.invalid_item a:after {
+		font-size: 1.3rem;
+	}
+}
+
+/* ------------------------------------
+ * footer
+ * ------------------------------------ */
+footer {
+    width: 100%;
+    margin: 0 auto 0;
+}

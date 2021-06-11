@@ -1,0 +1,283 @@
+@charset "UTF-8";
+/*\*/
+
+/* ------------------------------------
+ * Over Ride
+ * ------------------------------------ */
+
+
+
+/* ------------------------------------
+ * List
+ * ------------------------------------ */
+
+.disco-list {
+    margin-bottom: 5%;
+}
+h3.category_heading {
+    position: relative;
+    margin-bottom: 5%;
+    padding-left: 30px;
+    border-bottom: solid 1px #ede7ea;
+    font-family: Lato, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+    font-size: 2.5rem;
+}
+h3.category_heading::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    background: url(https://www.izone-official.com/shared/img/parts/icon_diamond.svg) no-repeat center center;
+}
+.disco-list-box li {
+    width: 20%;
+    float: left;
+	margin-bottom: 10px;
+}
+.disco-list-box li a {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    text-decoration: none;
+	-webkit-transition: color .3s ease;
+	transition: color .3s ease;
+}
+.disco-list-box li a:hover {
+    color: #ff50a0;
+}
+.disco-list-box li .box {
+	position: relative;
+	margin-bottom: 10px;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+.disco-list-box li .box:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+.disco-list-box li .box .thumb {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 0;
+}
+.disco-list-box li .box .thumb:before {
+	content: "";
+	height: 100%;
+	vertical-align: middle;
+	width: 0px;
+	display: inline-block;
+}
+.disco-list-box li .box .thumb:after {
+	display: block;
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: url("https://web-m.webcdn.stream.ne.jp/www09/web-m/izone-official.com/shared/img/parts/spacer.gif") no-repeat left top;
+}
+.disco-list-box li .box .thumb > * {
+	vertical-align: middle;
+	display: inline-block;
+}
+.disco-list-box li .box .thumb img {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	max-height: 100%;
+	vertical-align: middle !important;
+}
+.disco-list-box li .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1039px) {
+    .disco-list-box li {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .disco-list-box li {
+        width: 100%;
+        float: none;
+        border-bottom: solid 1px #ede7ea;
+    }
+    .disco-list-box li:last-child {
+        border: none;
+    }
+    .disco-list-box li a {
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        width: 100%;
+    }
+    .disco-list-box li .box {
+        width: 200px;
+    }
+    .disco-list-box li .title {
+        width: calc(100% - 200px);
+        margin-left: 3%;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .disco-list-box li .box {
+        width: 150px;
+    }
+    .disco-list-box li .title {
+        width: calc(100% - 150px);
+    }
+}
+
+
+/* ------------------------------------
+ * Index
+ * ------------------------------------ */
+
+.disco-detail {
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+	display: flex;
+    margin: 5% 0 8%;
+}
+.disco-detail .photo {
+    width: 480px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.disco-detail .photo img {
+    width: 100%;
+}
+.disco-detail .text {
+    width: calc(100% - 480px);
+    padding: 0 0 0 50px;
+}
+.disco-detail .text .disco-detail-title {
+    margin-bottom: 5%;
+}
+.disco-detail .text .disco-detail-title h3 {
+    margin-bottom: 0.5em;
+    font-size: 2.5rem;
+    line-height: 1.4
+}
+.disco-detail .text .disco-detail-title .item-data {
+    font-family: Lato, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+    font-weight: 700;
+}
+.disco-detail .text .disco-detail-title .item-data .release {
+    display: inline-block;
+}
+.disco-detail .text .disco-detail-title .item-data .cate {
+    display: inline-block;
+    margin: 0 6px 0 10px;
+    padding: 0 10px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: baseline;
+    background-color: #ffecf8;
+    white-space: nowrap;
+    font-size: 1rem;
+    border: solid 1px #ff50a0;
+    border-radius: 3px;
+    color: #ff50a0;
+}
+.disco-detail .text .disco-detail-text .icon {
+    display: inline-block;
+    margin-left: 5px;
+}
+.disco-detail .text .disco-detail-text .icon a {
+    position: relative;
+    display: block;
+    padding: 2px 15px 2px 8px;
+    height: 14px;
+    line-height: 1;
+    background-color: #444043;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.0rem;
+    border-radius: 7px;
+}
+.disco-detail .text .disco-detail-text .icon a::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4px 0 4px 5px;
+    border-color: transparent transparent transparent #ffffff;
+}
+.disco-detail .text .disco-detail-text .icon a:hover {
+    color: #ff90c3;
+}
+.disco-detail .text .disco-detail-text .icon a:hover::after {
+    border-color: transparent transparent transparent #ff90c3;
+}
+
+
+@media screen and (max-width: 1039px) {
+    .disco-detail .photo {
+        width: 320px;
+    }
+    .disco-detail .text {
+        width: calc(100% - 320px);
+        padding: 0 0 0 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .disco-detail {
+        display: block;
+    }
+    .disco-detail .photo {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .disco-detail .text {
+        width: 100%;
+        margin: 5% 0;
+        padding: 0;
+    }
+    .disco-detail .text .disco-detail-title h3 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .disco-detail .text .disco-detail-title h3 {
+        font-size: 1.8rem;
+    }
+}
+
+
+
+
+/*--- clearfix ------------------*/
+
+.disco-list-box:after {
+    clear: both;
+    display: block;
+    height: 0;
+    line-height: 0;
+    content: ".";
+    visibility: hidden;
+}
+

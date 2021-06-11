@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*\*/
+
+/* ------------------------------------
+ * Over Ride
+ * ------------------------------------ */
+
+
+
+/* ------------------------------------
+ * List
+ * ------------------------------------ */
+
+.list {
+    margin-top: 5%;
+}
+
+
+/*--- clearfix ------------------*/
+
+.clearfix:after {
+    clear: both;
+    display: block;
+    height: 0;
+    line-height: 0;
+    content: ".";
+    visibility: hidden;
+}
+

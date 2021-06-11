@@ -1,0 +1,170 @@
+/* -----------------------------------
+PC　ログインスタイル　ver.1
+pc_login.css
+-----------------------------------*/
+*{
+	margin: 0;
+	padding:0;
+	list-style-type:none;
+	} 
+#loginArea h2 {
+	background: #4b4b4b;
+	color: #ffffff;
+	text-align:center;	
+}
+#loginArea form {
+	margin: 0;
+	padding: 0;
+}
+#loginArea input {
+	border: 1px solid #dfdfdf;
+	font-size: 14px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 8px;
+	margin: 5px 0;
+}
+#loginArea .loginTopArea {
+	padding: 10px;
+}
+#loginArea .attention {
+	color: #ff50a0;
+}
+#loginArea .btnArea {
+	text-align: center;
+	padding: 3em 0;
+	margin-top: 3em;
+	border-top: 1px solid #ededed;
+}
+#loginArea .btnArea li {
+	display: inline-block;
+	padding: 0 1em;
+}
+#loginArea .wide {
+	width: 100%;
+}
+#loginArea .half {
+	width: 48%;
+}
+#loginArea .short {
+	width: 28%;
+}
+#loginArea .memory label {
+	width: 100%;
+	padding: 8px;
+	font-size: 125%;
+	background: #dfdfdf;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 5px 0;
+}
+#loginArea .arrowRtxt {
+	display: inline;
+	clear: both;
+	margin: 5px auto;
+	padding-right: 15px;
+	background: url(../img/common/ico_arrowR.png) right center no-repeat;
+}
+#loginArea .textLink {
+	text-align: center;
+	padding: .8em;
+}
+#loginArea .btn_area input.button {
+	padding: 1em 6em !important;
+	background: #3498db;
+	color: #fff;
+	padding: 1em 0;
+}
+#loginArea .loginBtmArea {
+	background: #dfdfdf;
+	padding: 10px;
+}
+#loginArea .txtArea {
+	background: #fff;
+	padding: 10px;
+	margin-top: 10px;
+}
+#loginArea .btnGray a {
+	padding: 1em 6em;
+	display: inline-block;
+	background: #ffffff;
+	border: 1px solid #ABABAB;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#loginArea .btn_area {
+	text-align: center;
+}
+#loginArea .btn_area ul {
+	margin: 0 auto;
+}
+#loginArea .btn_area ul li {
+	padding-right: 10px;
+	display: inline-block;
+}
+#loginArea .btnWhite {
+	margin: 10px 0;
+}
+#loginArea .btnWhite a {
+	padding: 1em 6em;
+	width: auto;
+	display: inline-block;
+	background: #ffffff url(../img/common/ico_arrowR.png) 98% center no-repeat;
+	border: 1px solid #ABABAB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-decoration: none;
+}
+#loginArea .btnSub {
+	margin: 10px 0 0 12em;
+	padding: 1em 6em;
+	font-size: 15px;
+	display: inline-block;
+	background: #ffffff;
+	text-align: center;
+	border: 1px solid #ABABAB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-weight: bold;
+}
+
+.login-close{
+	position:absolute;
+	display:inline-block;
+	transform: scale(1);
+	top:-20px;
+	right:-15px;
+	background-color: #4b4b4b;
+	border-radius: 36px;
+	box-shadow: 1px 1px 5px rgba(0,0,0,1);
+	border: 3px solid #999;
+	height: 36px;
+	width: 36px;
+}
+.login-close:before,.login-close:after{
+	position:absolute;
+	display:inline-block;
+	content: '';
+	width: 4px;
+	height: 25px;
+	-webkit-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	background-color: white;
+	top: 3px;
+	left: 13px;
+}
+.login-close:after{
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.login-close:hover{
+	background-color: #0a0a0a;
+}

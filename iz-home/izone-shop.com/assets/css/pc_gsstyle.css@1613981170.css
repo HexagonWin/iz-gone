@@ -1,0 +1,57 @@
+/* -----------------------------------
+スマホ　グループショップスタイル　ver.1
+sp_gsstyle.css
+-----------------------------------*/
+header .bg {
+}
+h1 {
+	background: url(../img/common/logo_b.png) no-repeat left center;
+}
+h2 {
+border-bottom: 2px solid #4b4b4b;
+}
+.button a {
+	border: 1px solid #bababa;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #ededed), color-stop(0.00, #fff));
+background: -webkit-linear-gradient(#fff, #ededed);
+background: -moz-linear-gradient(#fff, #ededed);
+background: -o-linear-gradient(#fff, #ededed);
+background: -ms-linear-gradient(#fff, #ededed);
+background: linear-gradient(#fff, #ededed);
+	padding: 1em 6em;
+	 border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+	margin: 1em auto;
+	text-align:center;
+	display: inline-block;
+	font-size:15px;
+	text-decoration: none;
+	}
+.button a:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #fff), color-stop(0.00, #ededed));
+background: -webkit-linear-gradient(#ededed, #fff);
+background: -moz-linear-gradient(#ededed, #fff);
+background: -o-linear-gradient(#ededed, #fff);
+background: -ms-linear-gradient(#ededed, #fff);
+background: linear-gradient(#ededed, #fff);
+
+	}
+	
+.button a.arrow{
+	position: relative;
+}
+.button a.arrow::after{
+	content:"";
+	display: block;
+	width:14px;
+	height:14px;
+	border-top:4px solid #333;
+	border-right:4px solid #333;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	position: absolute;
+	right:10px;
+	top:50%;
+	margin-top:-7px;
+}

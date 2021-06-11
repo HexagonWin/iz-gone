@@ -1,0 +1,148 @@
+/* -----------------------------------
+PC　カートスタイル　ver.1
+pc_cart.css
+-----------------------------------*/
+.message {
+	padding: .8em 0;
+	margin: .8em 0;
+	line-height: 1.6;
+}
+.formBox {
+	border: 1px solid #dfdfdf;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-bottom: 1em;
+	line-height: 2em;
+}
+.btnRed {
+	color: #FFF !important;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	padding: 1em 6em;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	display: inline-block;
+	background: #d8263c;
+	cursor: pointer;
+	border: none;
+}
+.itemBox {
+	padding: 10px 0;
+	border-bottom: #CCC solid 1px;
+	clear: both;
+	overflow: hidden;
+	position: relative;
+}
+.productImg {
+	float: left;
+	clear: left;
+	width: 27%;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin-left: .8em;
+}
+.cartinContents {
+	width: 68%;
+	float: right;
+	display: block;
+	position: relative;
+}
+.totalBox {
+	padding: 10px;
+	text-align: right;
+	clear:both;
+}
+.totalBoxTop {
+	padding-bottom: 10px;
+	border-bottom: #ccc solid 1px;
+}
+.btn_area_btm {
+	padding: 10px;
+}
+.price {
+	color: #ff50a0;
+	font-weight: bold;
+	font-size: 144%;
+}
+.cartinContents p {
+	margin-right: 25px;
+}
+.cartinContents .btn_delete {
+	padding: 2px;
+	right: 0;
+	float: right;
+	position: absolute;
+	top: 0;
+	cursor: pointer;
+	margin: 0;
+}
+.cartinContents em {
+	font-size: 112.5%;
+	font-weight: bold;
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px dotted #d0d0d0;
+	margin: 5px 0;
+	padding: 0;
+	clear: both
+}
+.formBox ul {
+	float: left;
+	clear: both;
+	line-height: 1.1;
+	padding: 0 .8em;
+	margin: 0;
+}
+.formBox ul li {
+	display: inline;
+	float: left;
+}
+.formBox ul li.quantity {
+	padding-left: 0.5em;
+	padding-top: 1em;
+	vertical-align: bottom;
+}
+.formBox ul li.quantity_btn {
+	margin-left: 1rem;
+	padding-left: 0.5em;
+	padding-top: 0.8em;
+	vertical-align: bottom;
+}
+.formBox ul li.result {
+	padding-left: 5em;
+	padding-top: 1em;
+	vertical-align: bottom;
+}
+p.result {
+	text-align:right;
+	padding:10px 10px 0 10px;
+	}
+.textTop {
+	font-size:125%;
+	font-weight:bold;
+	padding:.8em;
+	background: #efefef;
+	border-bottom: 1px solid #d0d0d0;
+	}
+	.topTotal {
+	font-size:112.5%;
+	font-weight:bold;
+	padding:.8em;
+	border-bottom: 1px solid #d0d0d0;
+	}
+		.topTotal span {
+			color: #d8263c;
+		}
+.cartinarea .itemBox {
+	width: 100%;
+	}
+	#cartBox .itemBox {
+		    width: auto;
+    float: none;
+				}

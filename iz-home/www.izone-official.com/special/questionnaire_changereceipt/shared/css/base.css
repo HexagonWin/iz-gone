@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p:100,300,400,500,700,800,900&subset=japanese,latin-ext');
+
+/* ------------------------------------
+ * BASE
+ * ------------------------------------ */
+html {
+	font-size: 62.5%;
+}
+body {
+	overflow-x: hidden;
+	width: 100%;
+	background: #ffffff;
+	color: #000000;
+	font-family: 'M PLUS 1p', sans-serif , "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "MS PGothic", Arial, Helvetica, Verdana;
+	font-weight: 400;
+	font-size: 1.4rem;
+	line-height: 1.6;
+	letter-spacing: .1em;
+}
+article {
+	clear: both;
+	text-align: left;
+}
+footer {
+	clear: both;
+}
+* {
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+:before,:after {
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+* {
+	-webkit-appearance: none;
+}

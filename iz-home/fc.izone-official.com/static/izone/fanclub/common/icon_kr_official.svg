@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="60px" height="60px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FF50A0;}
+	.st1{opacity:0.2;}
+	.st2{opacity:0.5;}
+	.st3{opacity:0.3;}
+</style>
+<g>
+	<g>
+		<g class="st1">
+			<g>
+				<polygon class="st0" points="29.6,55 5,30 29.6,5 54.2,30 				"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st0" d="M29.6,58.4L1.6,30l28-28.4l28,28.4L29.6,58.4z M8.4,30l21.2,21.6L50.9,30L29.6,8.4L8.4,30z"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g class="st2">
+			<polygon class="st0" points="29.6,5.9 32.7,29.9 54.2,29.4 			"/>
+		</g>
+		<g>
+			<g>
+				<rect x="6.3" y="28.5" class="st0" width="48.1" height="4.7"/>
+			</g>
+		</g>
+		<g class="st3">
+			<polygon class="st0" points="5,30 29.6,55 33.2,31.4 			"/>
+		</g>
+	</g>
+</g>
+</svg>

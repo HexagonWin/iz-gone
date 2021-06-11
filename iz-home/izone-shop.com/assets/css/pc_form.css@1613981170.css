@@ -1,0 +1,595 @@
+/* -----------------------------------
+PC　フォームスタイル　ver.1
+pc_form.css
+-----------------------------------*/
+form {
+	margin: 0;
+	padding: 0;
+}
+input {
+	border: 1px solid #dfdfdf;
+	font-size: 14px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 8px;
+	margin: 5px 0;
+}
+.loginTopArea {
+	padding: 10px;
+}
+.attention {
+	color: #ff50a0;
+}
+.attention_border {
+	border: 2px solid #ff50a0;
+	padding: .8em;
+	line-height: 1.6;
+	color: #ff50a0;
+	display: block;
+	margin-bottom: 1em;
+}
+.attention_border .ico {
+	background: url(../img/common/ico_info.png) no-repeat left center;
+	background-size: 20px auto;
+	font-size: 144%;
+	padding-left: 25px;
+	padding-top: 4px;
+}
+.btnArea {
+	text-align: center;
+	padding: 3em 0;
+	margin-top: 3em;
+}
+.btnArea li {
+	/*display: inline-block;*/
+	padding: 1em 1em;
+}
+
+.wide {
+	width: 100%;
+}
+.half {
+	width: 48%;
+}
+.short {
+	width: 28%;
+}
+.memory label {
+	width: 100%;
+	padding: 8px;
+	font-size: 125%;
+	background: #dfdfdf;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 5px 0;
+}
+.arrowRtxt {
+	display: inline;
+	clear: both;
+	margin: 5px auto;
+	padding-right: 15px;
+	background: url(../img/common/ico_arrowR.png) right center no-repeat;
+}
+.textLink {
+	text-align: center;
+	padding: .8em;
+}
+.btn_area input.button {
+	padding: 1em 6em !important;
+	background: #4b4b4b;
+	color: #fff;
+	padding: 1em 0;
+}
+.loginBtmArea {
+	background: #dfdfdf;
+	padding: 10px;
+}
+.txtArea {
+	background: #fff;
+	padding: 10px;
+	margin-top: 10px;
+}
+h3 {
+	border-left: solid .5rem #ff50a0;
+}
+/*お届け先*/
+.message {
+	margin-bottom:1em;
+}
+.delivBox {
+	border: #CCC solid 1px;
+	margin-top: 1em;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.deliv_check {
+	clear: both;
+	margin: 0;
+}
+.deliv_check dt {
+	font-weight: bold;
+	padding: 10px 10px 10px 10px;
+	background: #EEE;
+	border-top: #FFF solid 1px;
+	vertical-align: middle;
+	position: relative;
+	display: block;
+}
+.deliv_check dt.first {
+	border-top: none;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+}
+.deliv_check dd {
+	padding: 10px;
+	border-bottom: #CCC solid 1px;
+	display: block;
+}
+.btnSub {
+	margin: 10px 0;
+	padding: 1em 6em;
+	font-size: 15px;
+	display: inline-block;
+	background: #ffffff;
+	text-align: center;
+	border: 1px solid #ABABAB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-weight: bold;
+}
+.btnRed {
+	color: #FFF !important;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	padding: 1em 6em;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	display: inline-block;
+	background: #d8263c;
+	cursor: pointer;
+	margin-bottom: 1em;
+	margin: 0 auto;
+	border:none;
+}
+.btnBlue {
+	color: #FFF !important;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	padding: 1em 6em;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	display: inline-block;
+	background: #ff7fb8;
+	cursor: pointer;
+	margin-bottom: 1em;
+	margin: 0 auto;
+	border:none;
+}
+.btnBack {
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	padding: 1em 6em;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	display: inline-block;
+	background: #efefef;
+	cursor: pointer;
+	margin-bottom: 1em;
+}
+.member_info {
+	margin-bottom: 10px;
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.red {
+	color: #d8263c;
+}
+.pink {
+	color: #ff50a0;
+}
+.prefBtn {
+	border: 1px solid #CCCCCC;
+	padding: .4em;
+}
+#payment {
+	font-size: 144%;
+	margin: 1em 0;
+}
+.deliv {
+	position: absolute;
+	bottom: -5px;
+	vertical-align: bottom;
+	right: 10px;
+}
+.formBox {
+	clear: both;
+	border: 1px solid #dfdfdf;
+	overflow: hidden;
+	margin-bottom: 1em;
+	padding: 1em;
+}
+.formBoxAttention {
+	clear: both;
+	border: 1px solid #FF50A0;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 1em;
+	padding: 1em;
+}
+.formBoxAttention .ico {
+	background: url(../img/common/ico_info.png) no-repeat left center;
+	background-size: 20px auto;
+	font-size: 144%;
+	padding-left: 30px;
+	color: #FF50A0;
+}
+.formBox h3 {
+	margin: .4em;
+}
+.deliv_check ul.edit {
+	float: right;
+	clear: right;
+	display: inline;
+	line-height: 1.1;
+	position: absolute;
+	right: 10px;
+	top: 12px;
+}
+ul.edit li:first-child {
+	margin-right: 0.8em;
+}
+ul.edit li {
+	display: inline;
+	float: left;
+	line-height: 1;
+	vertical-align: middle;
+}
+a.b_edit:link, a.b_edit:visited, a.b_edit:hover {
+	color: #000;
+	font-size: 11px;
+	padding: 4px 5px;
+	border: #CCC solid 1px;
+	background: #fff;
+	display: inline;
+	text-align: center;
+	cursor: pointer;
+	vertical-align: middle;
+}
+#credit_card_txt {
+	width: 90%;
+	margin: 2.5% auto 4%;
+	padding: 3%;
+	overflow: auto;
+	height: 150px;
+	border: 1px solid #ccc;
+}
+table {
+	width: 100%;
+	margin: 10px 0 20px;
+	text-align: center;
+	vertical-align: middle;
+	border-collapse: collapse;
+	border: 1px solid #CCC;
+}
+table tr {
+	border-bottom: solid 1px #cccccc;
+}
+table th {
+	width: 30%;
+	padding: 8px;
+		border: 1px solid #CCC;
+background-color: #f0f0f0;
+}
+table td {
+	width: 62%;
+	padding: 8px;
+	border: 1px solid #CCC;
+	background-color: #ffffff;
+	text-align: left;
+	text-indent:0;
+}
+table td label {
+	padding: .6em;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.cardBtn {
+	border: 1px solid #CCCCCC;
+	padding: .4em;
+}
+.delivBtn {
+	width: 100%;
+	border: 1px solid #CCCCCC;
+	padding: .4em;
+	font-size: 125%;
+}
+.formBox .text {
+	padding: 10px;
+	margin: 0;
+}
+#cvsList label {
+	padding: .6em;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width: 100%;
+	position: relative;
+	font-size: 125%;
+}
+#cvsList input {
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	width: 10px;
+	height: 10px;
+	margin: -5px 0 0 0;
+	outline: 0!important;
+	z-index: 1;
+}
+#cvsList .text {
+	padding-left: 45px;
+	display: block;
+}
+.btnGray {
+}
+.btnGray a {
+	padding: 1em 6em;
+	display: inline-block;
+	background: #ffffff;
+	border: 1px solid #ABABAB;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.deliBox {
+	padding: .8em;
+	position: relative;
+}
+.lineBox {
+	border: 1px solid #ababab;
+	margin-bottom: 3em;
+}
+.lineBox h3 {
+	margin: .4em;
+}
+.lineBox p {
+	padding: 0 12px 12px 12px;
+}
+ul.edit {
+	float: right;
+	clear: right;
+	display: inline;
+	vertical-align: top;
+	line-height: 1;
+	position: absolute;
+	right: 10px;
+	top: 15px;
+}
+ul.edit li {
+	display: block;
+	float: none;
+	text-align: center;
+	font-size: 72.5%;
+	padding-bottom: 1em;
+	line-height: 1.8em;
+	margin: 0 0 1em 0 !important;
+	color: #333;
+}
+#contactList {
+	margin: 1em 0;
+}
+#searchList {
+	margin: 0;
+}
+#searchList th {
+	width: 20%;
+	float: left;
+	padding: 1.2em;
+	background: #efefef;
+	clear: left;
+	font-size: 14px;
+}
+#searchList td {
+	width: 80%;
+	padding: .8em;
+	float: left;
+}
+#searchList td select {
+	padding: 4px;
+	width: 100%;
+}
+.bgnone {
+	border:none !important;
+	}
+.bgnone dt {
+		cursor: pointer;
+	font-weight: bold;
+	border: none;
+	font-size: 115%;
+	text-align:left;
+	border: 1px solid #ededed;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+	position: relative;
+	display: block;
+	padding-left:1.6em;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #f7f7f7), color-stop(0.00, #fff));
+background: -webkit-linear-gradient(#fff, #f7f7f7);
+background: -moz-linear-gradient(#fff, #f7f7f7);
+background: -o-linear-gradient(#fff, #f7f7f7);
+background: -ms-linear-gradient(#fff, #f7f7f7);
+background: linear-gradient(#fff, #f7f7f7);
+}
+.bgnone dd {
+	background: #f7f7f7;
+}
+
+.txtSold {
+	padding: .8em;
+	text-align: right;
+}
+/*アコーディオン開いた状態*/
+.switch {
+	cursor: pointer;
+	font-weight: bold;
+	border: none;
+	padding: 1.4em;
+	font-size: 115%;
+	text-align:left;
+	border: 1px solid #ededed;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+	position: relative;
+	display: block;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #f7f7f7), color-stop(0.00, #fff));
+background: -webkit-linear-gradient(#fff, #f7f7f7);
+background: -moz-linear-gradient(#fff, #f7f7f7);
+background: -o-linear-gradient(#fff, #f7f7f7);
+background: -ms-linear-gradient(#fff, #f7f7f7);
+background: linear-gradient(#fff, #f7f7f7);
+
+}
+.switch:before {
+	display: block;
+	content: "";
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	top: 50%;
+	right: 15px;
+	width: 16px;
+	height: 16px;
+	margin-top: -8px;
+	background: #cccccc;
+}
+.switch:after {
+	display: block;
+	content: "";
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	top: 50%;
+	right: 15px;
+	width: 16px;
+	height: 16px;
+	margin-top: -16px;
+	background: #FBFAFA;
+}
+.switch.active:before {
+	margin-top: -2px;
+}
+.switch.active:after {
+	margin-top: 6px;
+}
+.toggle_con {
+	overflow: hidden;
+	padding: 0.6em;
+	background: #f7f7f7;
+}
+.leftBox {
+	width: 48%;
+	float: left;
+	margin-bottom: 6em;
+}
+.rightBox {
+	width: 48%;
+	float: right;
+}
+.txtBox {
+	position: relative;
+	background: #EDEDED;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 1em;
+}
+.txtBox:after {
+	content: '';
+	position: absolute;
+	border-top: 10px solid #EDEDED;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	bottom: -9px;
+	left: 48%;
+}
+/*カテゴリ上部プルダウンリスト*/
+#searchTopArea {
+	background: #f7f7f7;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 1em;
+	overflow: hidden;
+	font-size: 14px;
+	margin-bottom: 1em;
+}
+#searchTopArea ul {
+	float: left;
+	width: 100%;
+}
+#searchTopArea ul li {
+	display: inline-block;
+}
+#searchTopArea ul li:first-child {
+	width: 18%;
+}
+#searchTopArea ul li:nth-child(2) {
+	width: 30%;
+}
+#searchTopArea ul li:nth-child(3) {
+	width: 40%;
+}
+#searchTopArea ul li:nth-child(4) {
+	width: 10%;
+}
+#searchTopArea ul li select {
+	width: 100%;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 1px solid #999;
+	background: #fff;
+	background: url(../img/common/category_list_arrow_pc.png) right 50% no-repeat, #fff;
+	background: url(../img/common/category_list_arrow_pc.png) right 50% no-repeat, #fff;
+	background-size: 20px, 100%;
+	text-indent: 1em;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	padding: 6px 0;
+	/* ↓矢印画像が文字と被ってしまうため取り急ぎ paddingで対応した */
+	padding-right: 22px;
+}
+#searchTopArea button {
+	background: #3598db;
+	color: #fff;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 6px 0;
+}

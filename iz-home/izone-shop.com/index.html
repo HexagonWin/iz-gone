@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="ja" ng-app="memecApp.main">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="IZ*ONE(アイズワン)の日本公式通販サイト。">
+    <meta name="keywords" content="IZ*ONE JAPAN OFFICIAL SHOP,アイズワンジャパンオフィシャルショップ,IZ*ONE,IZONE,アイズワン,IZ*ONE グッズ,IZ*ONE CD,IZ*ONE メンバー,チャン・ウォニョン,宮脇咲良,チョ・ユリ,チェ・イェナ,アン・ユジン,矢吹奈子,クォン・ウンビ,カン・ヘウォン,本田仁美,キム・チェウォン,キム・ミンジュ,イ・チェヨン">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta property="og:title" content="IZ*ONE JAPAN OFFICIAL SHOP">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://izone-shop.com">
+    <meta property="og:image" content="https://izone-shop.com/ogp_img.png">
+    <meta property="og:site_name" content="IZ*ONE JAPAN OFFICIAL SHOP">
+    <meta property="og:description" content="IZ*ONE(アイズワン)の日本公式通販サイト。">
+    <meta name="application-name" content="IZ*ONE JAPAN OFFICIAL SHOP">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="favicons/apple-touch-icon-180x180-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicons/apple-touch-icon-152x152-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicons/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicons/apple-touch-icon-120x120-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicons/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicons/apple-touch-icon-76x76-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicons/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicons/apple-touch-icon-60x60-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="favicons/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" href="favicons/apple-touch-icon-57x57.png">
+
+    <title>IZ*ONE JAPAN OFFICIAL SHOP</title>
+
+            <link rel="canonical" href="mypage/top.html" />
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    	<link type="text/css" rel="stylesheet" href="assets/css/izone/normalize.css@1613975599.css" />
+    	<link media="screen" type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css@1613975599.css" />
+    	<link media="screen" type="text/css" rel="stylesheet" href="assets/css/bootstrap-theme.min.css@1613975599.css" />
+    	<link type="text/css" rel="stylesheet" href="assets/css/jquery.bxslider.css@1613975599.css" />
+    	<link type="text/css" rel="stylesheet" href="assets/css/izone/slick/slick.css@1613975599.css" />
+    	<link type="text/css" rel="stylesheet" href="assets/css/izone/slick/slick-theme.css@1613975599.css" />
+    	<link type="text/css" rel="stylesheet" href="assets/css/izone/izone.css@1613975599.css" />
+
+    <!--AngularJS-->
+    	<script type="text/javascript" src="assets/js/angular.min.js@1613975599"></script>
+    	<script type="text/javascript" src="assets/js/angular-resource.min.js@1613975599"></script>
+    	<script type="text/javascript" src="assets/js/angular-cookies.min.js@1613975599"></script>
+    	<script type="text/javascript" src="assets/js/angular-animate.min.js@1613975599"></script>
+    	<script type="text/javascript" src="assets/js/angular-sanitize.min.js@1613975599"></script>
+    	<script type="text/javascript" src="assets/js/angular-locale_ja-jp.js@1613975599"></script>
+    	<script type="text/javascript" src="assets/js/angular-touch.min.js@1613975599"></script>
+    	<script type="text/javascript" src="assets/js/ng-infinite-scroll.min.js@1613975599"></script>
+    	<script type="text/javascript" src="assets/js/ui-bootstrap-tpls-1.3.2.min.js@1613975599"></script>
+    	<script type="text/javascript" src="assets/js/index.js@1613975655"></script>
+    <!--ALL-->
+    	<script type="text/javascript" src="assets/js/jquery-1.10.2.min.js@1613975599"></script>
+
+    	<script type="text/javascript" src="assets/js/slick.min.js@1613975599"></script>
+    	<script type="text/javascript" src="assets/js/scroll-top.js@1613975599"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131006903-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-131006903-1');
+</script>
+    </head>
+<body ng-controller="GlobalConfigController as globalConfigCtrl" class="ng-cloak" ng-cloak>
+    
+<div ng-controller="SearchPageRedirectController as searchPageRedirectCtrl">
+    <div id="header" class="l-header p-header">
+        <div class="l-header__nav l-header__nav--sns">
+            <img ng-click="searchPageRedirectCtrl.hide = !searchPageRedirectCtrl.hide" class="l-header__nav--search__icon p-header__search__icon" src="assets/img/izone/icon_serch.png" alt="cart">
+            <div class="p-header__sns">
+                <div class="c-sns">
+    <a href="http://cafe.daum.net/official-izone" target="_blank">
+        <span class="c-sns__icon c-sns__icon--daum-cafe"></span>
+    </a>
+    <a href="https://twitter.com/official_izone" target="_blank">
+        <span class="c-sns__icon c-sns__icon--twitter"></span>
+    </a>
+    <a href="https://www.youtube.com/channel/UCe_oTYByLWQYCUmgmOMU_xw" target="_blank">
+        <span class="c-sns__icon c-sns__icon--youtube"></span>
+    </a>
+    <a href="https://www.facebook.com/official.izone/" target="_blank">
+        <span class="c-sns__icon c-sns__icon--facebook"></span>
+    </a>
+    <a href="https://www.instagram.com/official_izone/" target="_blank">
+        <span class="c-sns__icon c-sns__icon--instagram"></span>
+    </a>
+    <a href="https://channels.vlive.tv/C1B7AF/home" target="_blank">
+        <span class="c-sns__icon c-sns__icon--v-live"></span>
+    </a>
+    <a href="https://www.weibo.com/officializone" target="_blank">
+        <span class="c-sns__icon c-sns__icon--weibo"></span>
+    </a>
+</div>
+            </div>
+        </div>
+        <div class="l-header__logo">
+            <a href="mypage/top.html">
+                <img class="l-header__img" src="assets/img/izone/logo_1.png" alt="logo">
+            </a>
+        </div>
+        <div class="l-header__nav l-header__nav--search c-search p-header__search">
+            <form action="mypage/top.html" onsubmit="return false;" ng-submit="searchPageRedirectCtrl.redirectToSearchPage()">
+                <input type="search" id="inTextPc" class="c-search__text" placeholder="Search" ng-model="searchPageRedirectCtrl.searchKeyword">
+                <div class="c-search__button" ng-click="searchPageRedirectCtrl.redirectToSearchPage()">
+                    <img src="assets/img/izone/icon_serch_pc.png" alt="logo">
+                </div>
+            </form>
+        </div>
+        <div class="l-header__nav l-header__nav--cart">
+            <a href="selection/cart.html">
+                <img class="l-header__nav--cart__icon" src="assets/img/izone/icon_cart.png" alt="cart">
+            </a>
+        </div>
+        <div class="l-header__nav l-header__nav--menu p-header__menu"
+             ng-controller="GlobalMenuController as globalMenuCtrl"
+             ng-click="globalMenuCtrl.openMenu()">
+            <img class="l-header__nav--menu__icon" src="assets/img/izone/icon_menu.png" alt="menu">
+        </div>
+    </div>
+    <div ng-hide="searchPageRedirectCtrl.hide" class="p-search p-header__search__icon">
+        <form action="mypage/top.html" onsubmit="return false;" ng-submit="searchPageRedirectCtrl.redirectToSearchPage()" class="c-search__form">
+            <div class="c-search__button" ng-click="searchPageRedirectCtrl.redirectToSearchPage()">
+                <img src="assets/img/izone/icon_serch_pc.png" alt="logo">
+            </div>
+            <div class="c-search__textbox">
+                <input type="search" id="inTextSp" class="c-search__text" placeholder="Search" ng-model="searchPageRedirectCtrl.searchKeyword">
+            </div>
+        </form>
+    </div>
+</div>
+    <div class="l-contents">
+                <div class="c-buyee">
+            <script type="text/javascript">
+  (function() {
+    var _buyee = { ac: 'izone-to-page' };
+    var _bqs = {};
+    _bqs['v'] = (new Date()).getTime();
+    var vars = [];
+    for (key in _bqs) {
+      vars.push(key + '=' + _bqs[key]);
+    }
+    var e = document.createElement('script'); e.type = 'text/javascript'; e.defer = true;
+    var scheme = 'https:' == document.location.protocol ? 'https' : 'http';
+    e.src = scheme + '://banner.buyee.jp/script/' + _buyee['ac'] + '.js?' + vars.join('&');
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s);
+  })();
+</script>
+
+<div id="for_izone-to-page" style="display: none; width: 0px; height: 0px;">
+    <input type="hidden" id="h_izone-to-page" value="to-page" />
+</div>
+        </div>
+        
+        
+<!--
+<div class="c-video">
+    <video class="c-video__video" src="https://d1f6mom6a9ylri.cloudfront.net/img/videos/fiesta.mp4" autoplay muted playsinline loop></video>
+    <a href="https://izone-shop.com/lp/1st_album/" target="_blank">
+        <button class="c-video__button c-button">&nbsp;日本1stアルバム<br>WIZ*ONE盤お申込</button>
+    </a>
+</div>
+-->
+<div class="c-video-temporary-img">
+    <img class="c-video-temporary-img__video u-pc-only" src="https://d1f6mom6a9ylri.cloudfront.net/img/videos/main_pc.jpg"></img>
+    <img class="c-video-temporary-img__video u-sp-only" src="https://d1f6mom6a9ylri.cloudfront.net/img/videos/main_sp.png"></img>
+    <!--
+    <a href="https://izone-shop.com/lp/1st_album/" target="_blank">
+        <button class="c-video-temporary-img__button c-button">&nbsp;日本1stアルバム<br>「Twelve」<br>WIZ*ONE盤お申込</button>
+    </a>
+    -->
+</div>
+
+<div class="c-banner-slider" ng-controller="SliderController as sliderCtrl" ng-init="sliderCtrl.init()">
+    <ul class="izoneBannerSlider c-banner-slider__slider">
+        <li class="c-banner-slider__slide" ng-repeat="homeBanner in sliderCtrl.homeBannerList" izone-slide>
+            <a ng-href="{{homeBanner.url_pc}}"
+               target="{{homeBanner.url_pc_targetblank === '1' ? '_blank' : '_self'}}">
+                <img ng-src="{{sliderCtrl.bannerDomain + homeBanner.imgurl_pc}}" width="100%" alt=""/>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+<div id="top-news" class="c-section">
+    <div class="c-section__title"><span>WHAT'S NEW</span></div>
+    <div class="c-news" ng-controller="NewsController as newsCtrl" ng-init="newsCtrl.init()">
+    <div ng-if="!newsCtrl.dispFlg" class="u-center"><img src="assets/img/common/loading.svg" alt="loading"/></div>
+    <div ng-if="newsCtrl.dispFlg">
+        <div class="c-news__article">
+            <div class="c-news__animated c-news__article__header" ng-repeat="news in newsCtrl.newsList | limitTo : (newsCtrl.moreFlg ? 5 : 2) : 0">
+                <div class="u-center-v">
+                    <span class="c-news__article__header__date" ng-bind="news.date.published | date: 'yyyy.MM.dd'"></span>
+                    <span class="c-news__article__header__new-icon" ng-if="newsCtrl.parseDate(news.date.published) > newsCtrl.dispNewDate">NEW</span>
+                </div>
+                <div class="c-news__article__header__title">
+                    <a class="c-news__article__header__title__link" ng-href="/news/detail/{{news.id}}">
+                        <span class="c-news__article__header__title__text" ng-bind-html="news.title | LineBreakFilter"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div ng-if="newsCtrl.newsList.length > 2" class="u-center c-section__button">
+            <a href="news/list.html" class="c-button c-button--more c-button--small"><span class="c-button--more__text">VIEW MORE</span></a>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="c-section--aggregate">
+    <div id="top-products" class="c-section">
+        <div class="c-section__title"><span>ITEM</span></div>
+        <div class="p-top__product-list" ng-controller="TopPreviewController as productCtrl">
+            {{ productList = productCtrl.productList; '' }}
+            <!-- use alias "productList" type: IProductList[] -->
+<div class="c-product-list">
+    <div class="c-product-list__product" ng-repeat="product in productList">
+        <a class="c-product-list__product__link" ng-href="{{(product.for_NMB.url) ? product.for_NMB.url : '/selection/detail/' + product.id}}">
+            <!-- use alias "product" type: IProductList -->
+<div class="c-product">
+    <div class="c-product__img-wrapper">
+        <!-- use alias "product" type: IProductList or IProductDetail -->
+<!-- require wrapper element css "position: relative;" or "position: static;" -->
+<!-- require wrapper element css "overflow: hidden;" -->
+<div class="c-product-status" ng-controller="ServerTimeController as serverTimeCtrl">
+    <span ng-if="product.group.type && (product.group.type === 'pre_order') && ((!product.flags.unlimited_supply && !product.flags.in_stock) || (product.date.closed && serverTimeCtrl.parseDate(product.date.closed) <= serverTimeCtrl.now)) && serverTimeCtrl.now >= serverTimeCtrl.parseDate(product.date.available)" class="c-product-status__tag">販売終了</span>
+    <span ng-if="product.group.type && (product.group.type !== 'pre_order') && ((!product.flags.unlimited_supply && !product.flags.in_stock) || (product.date.closed && serverTimeCtrl.parseDate(product.date.closed) <= serverTimeCtrl.now)) && serverTimeCtrl.now >= serverTimeCtrl.parseDate(product.date.available)" class="c-product-status__tag">SOLD OUT!</span>
+    <span ng-if="product && serverTimeCtrl.now < serverTimeCtrl.parseDate(product.date.available)" class="c-product-status__tag--small">COMING SOON!</span>
+</div>
+        <img ng-controller="ImgUrlController as imgUrlCtrl"
+             class="c-product__img" ng-src="{{imgUrlCtrl.createProductListImgUrl(product.image.code)}}" alt="product_img">
+    </div>
+    <div class="c-product__name">
+        <span ng-bind="product.name"></span>
+    </div>
+    <div class="c-product__price">
+        <span ng-bind="'￥ ' + (product.price.with_tax | currency: '':0)"></span>
+        <span class="c-product__price__tax-included">(税込)</span>
+    </div>
+</div>
+        </a>
+    </div>
+</div>
+
+            <div class="c-section__button">
+                <!-- use alias "productCtrl" original: TopPreviewController or ProductListController or ProductListMemberController -->
+<!-- use with ./list.php -->
+<div class="u-center" ng-if="productCtrl.isAddingProducts && !productCtrl.wasFetchedAllProduct">
+    <img src="assets/img/common/loading.svg" alt="loading"/>
+</div>
+
+<div class="u-center" ng-if="!productCtrl.isAddingProducts && !productCtrl.wasFetchedAllProduct">
+    <button class="c-button c-button--more" ng-click="productCtrl.fetchNext()"><span class="c-button--more__text">VIEW MORE</span></button>
+</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="top-members" class="c-section">
+        <div class="c-section__title"><span>MEMBER</span></div>
+        <div class="c-member-list">
+    <div class="c-member-list__group-info" ng-controller="MemberController as memberCtrl">
+        <div class="c-member-list__member-info">
+            <div class="c-member-list__member" ng-repeat="member in memberCtrl.memberParams">
+                <a class="c-member-list__member__link" ng-href="{{member.link}}">
+                    <div class="c-member-list__member__img">
+                        <div ng-style="{{member.borderStyle}}">
+                            <img class="u-unselectable" ng-src="{{member.imgSrc}}" alt="{{member.name}}" width="100%">
+                        </div>
+                    </div>
+                    <div class="u-center">
+                        <span class="c-member-list__member__name" ng-bind="member.name"></span>
+                    </div>
+                    <div class="u-center">
+                        <span class="c-member-list__member__roman-name" ng-bind="member.nameRoman"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+
+    <div id="top-movies" class="c-section">
+        <div class="c-section__title"><span>MOVIE</span></div>
+        <div class="c-movie">
+    <div class="c-movie__frame">
+        <div class="c-movie__content">
+            <iframe src="https://www.youtube.com/embed/nRYCLOTRAK4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="c-movie__frame">
+        <div class="c-movie__content">
+            <iframe src="https://www.youtube.com/embed/Wc2LVHiuU7Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+<div class="c-movie u-m-top-10">
+    <div class="c-movie__frame">
+        <div class="c-movie__content">
+            <iframe src="https://www.youtube.com/embed/WZEbUb3AFjI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+    <div class="c-movie__frame">
+        <div class="c-movie__content">
+            <iframe src="https://www.youtube.com/embed/5CP9YQMhqT8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+
+    </div>
+    
+    <div class="js-to-page-top c-to-top-button glyphicon glyphicon-circle-arrow-up"></div>
+
+    
+<div id="footer" class="p-footer">
+    <div class="p-footer__nav-list">
+        <div class="p-footer__nav-list__column">
+            <div class="p-footer__nav"
+                 ng-model="footerNavServiceClosed"
+                 ng-init="footerNavServiceClosed = true">
+                <div class="p-footer__nav__head"
+                     ng-click="footerNavServiceClosed = !footerNavServiceClosed"
+                     ng-class="{'active': !footerNavServiceClosed}">
+                    <span>Service</span>
+                </div>
+                <div class="p-footer__nav__link-list-wrapper" ng-class="{'p-footer__nav__link-list-wrapper--closed': footerNavServiceClosed}">
+                    <div class="p-footer__nav__link-list" ng-class="{'p-footer__nav__link-list--closed': footerNavServiceClosed}">
+                        <a class="p-footer__nav__link" href="site-info/registration.html">初めての方へ</a>
+                        <a class="p-footer__nav__link" href="site-info/help-list.html">ご利用ガイド</a>
+                        <a class="p-footer__nav__link" href="site-info/faq.html">よくあるご質問</a>
+                        <a class="p-footer__nav__link" href="selection/cart.html">カート</a>
+                        <a class="p-footer__nav__link" href="contact.html">お問い合わせ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-footer__nav-list__column">
+            <div class="p-footer__nav"
+                 ng-model="footerNavAgreementAndOthersClosed"
+                 ng-init="footerNavAgreementAndOthersClosed = true">
+                <div class="p-footer__nav__head"
+                     ng-click="footerNavAgreementAndOthersClosed = !footerNavAgreementAndOthersClosed"
+                     ng-class="{'active': !footerNavAgreementAndOthersClosed}">
+                    <span>Agreement / Others</span>
+                </div>
+                <div class="p-footer__nav__link-list-wrapper" ng-class="{'p-footer__nav__link-list-wrapper--closed': footerNavAgreementAndOthersClosed}">
+                    <div class="p-footer__nav__link-list" ng-class="{'p-footer__nav__link-list--closed': footerNavAgreementAndOthersClosed}">
+                        <a class="p-footer__nav__link" href="site-info/policy.html">WIZ*ONEアカウントサービス会員規約</a>
+                        <a class="p-footer__nav__link" href="site-info/term.html">利用規約</a>
+                        <a class="p-footer__nav__link" href="site-info/law.html">特定商取引に関する法律に基づく表示</a>
+                        <a class="p-footer__nav__link" href="site-info/privacy.html">個人情報の取扱いに関して</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-footer__nav-list__column">
+            <div class="p-footer__nav p-footer__nav--sns">
+                <div class="p-footer__nav__head p-footer__nav__head--sns">
+                    <span>SNS</span>
+                </div>
+                <div class="p-footer__nav__sns-wrapper p-footer__nav__link">
+                    <div class="p-footer__nav__sns">
+                        <div class="c-sns">
+    <a href="http://cafe.daum.net/official-izone" target="_blank">
+        <span class="c-sns__icon c-sns__icon--daum-cafe"></span>
+    </a>
+    <a href="https://twitter.com/official_izone" target="_blank">
+        <span class="c-sns__icon c-sns__icon--twitter"></span>
+    </a>
+    <a href="https://www.youtube.com/channel/UCe_oTYByLWQYCUmgmOMU_xw" target="_blank">
+        <span class="c-sns__icon c-sns__icon--youtube"></span>
+    </a>
+    <a href="https://www.facebook.com/official.izone/" target="_blank">
+        <span class="c-sns__icon c-sns__icon--facebook"></span>
+    </a>
+    <a href="https://www.instagram.com/official_izone/" target="_blank">
+        <span class="c-sns__icon c-sns__icon--instagram"></span>
+    </a>
+    <a href="https://channels.vlive.tv/C1B7AF/home" target="_blank">
+        <span class="c-sns__icon c-sns__icon--v-live"></span>
+    </a>
+    <a href="https://www.weibo.com/officializone" target="_blank">
+        <span class="c-sns__icon c-sns__icon--weibo"></span>
+    </a>
+</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-footer__nav p-footer__nav--banner" ng-controller="ImgUrlController as imgUrlCtrl">
+                <div class="p-footer__nav__banner">
+                    <div class="p-footer__nav__banner__row">
+                        <div class="p-footer__nav__banner__row__column">
+                            <a href="http://iz-one.co.kr/" target="_blank">
+                                <img class="p-footer__nav__banner__row__column__img" ng-src="{{imgUrlCtrl.resourceUrl + 'memec/image/bnr_f_izone.png'}}" alt="official_banner">
+                            </a>
+                        </div>
+                        <div class="p-footer__nav__banner__row__column">
+                            <a href="https://www.izone-official.com/" target="_blank">
+                                <img class="p-footer__nav__banner__row__column__img" ng-src="{{imgUrlCtrl.resourceUrl + 'memec/image/bnr_f_izone_jp.png'}}" alt="japan_official_banner">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-footer__nav__banner__row">
+                        <div class="p-footer__nav__banner__row__column">
+                            <a href="https://shop.buyee.jp/izone-shop" target="_blank">
+                                <img class="p-footer__nav__banner__row__column__img" ng-src="{{imgUrlCtrl.resourceUrl + 'memec/image/bnr_f_buyee.png'}}" alt="buyee_banner">
+                            </a>
+                        </div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="p-footer__copyright">
+        <p class="p-footer__copyright__text">
+            <span class="p-footer__copyright__mark">&copy;</span><span>2018 OFF THE RECORD ENTERTAINMENT</span>
+        </p>
+        <div class="p-footer__copyright__note-wrapper">
+            <p class="p-footer__copyright__note">
+                <span>サイト内の文章、画像などの著作物はOFF THE RECORD ENTERTAINMENTに属します。</span>
+                <span>複製、無断転載を禁止します。</span>
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

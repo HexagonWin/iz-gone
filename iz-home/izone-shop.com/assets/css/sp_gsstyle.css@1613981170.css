@@ -1,0 +1,51 @@
+/* -----------------------------------
+スマホ　グループショップスタイル　ver.1
+sp_gsstyle.css
+-----------------------------------*/
+header .bg {
+	/*background: #4b4b4b url(../img/common/head_gs.png) no-repeat right center;*/
+}
+h1 {
+	background: url(../img/common/logo.png) no-repeat 4% center;
+	 padding: 50px 0 0 0 !important;
+}
+@media screen and (min-width:600px) and ( max-width:960px) {
+h1 {
+	background-size: 100% !important;
+	padding-top: 80px !important;
+}
+}
+h2 {
+	color: #4b4b4b;
+	border-bottom: 1px solid #4b4b4b;
+}
+.button a {
+	background: #4b4b4b;
+	padding: 1em;
+	 border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+	margin: 1em;
+	text-align:center;
+	color: #fff !important;
+	width: 90%;
+	display: inline-block;
+	font-size:15px;
+	}
+.button a.arrow{
+	position: relative;
+}
+.button a.arrow::after{
+	content:"";
+	display: block;
+	width:10px;
+	height:10px;
+	border-top:4px solid #ffffff;
+	border-right:4px solid #ffffff;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	position: absolute;
+	right:10px;
+	top:54%;
+	margin-top:-7px;
+}

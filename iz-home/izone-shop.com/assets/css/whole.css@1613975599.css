@@ -1,0 +1,141 @@
+iframe[name="google_conversion_frame"] {
+    position: absolute; top: 0;
+}
+
+.header-point-gotten-text {
+    color: #ff0000;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+@media screen and (max-width: 960px) {
+    /* スマホでソフトウェアキーボードによってスクロールが不可になる問題の対応 */
+    .modal { position: absolute; }
+}
+
+/* resetかけられていてaタグがリンクの色にならないので強制的にスタイル適用するため */
+.forceLinkStyle {
+    color:#3498db;
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+/* ↓ coupon */
+.couponLottery {
+    font-size: 300%;
+    font-family: "Impact", sans-serif;
+    padding: 0.5em 4em;
+    margin: 1em auto 2em auto;
+    text-align: center;
+    color: #fff;
+    background: -moz-linear-gradient( top, #fb0509 0%, #9e1e20);
+    background: -webkit-gradient( linear, left top, left bottom, from(#fb0509), to(#9e1e20));
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #e31d21;
+    -moz-box-shadow: 0 1px 3px rgba(000, 000, 000, 0.5), inset 0 0 2px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0 1px 3px rgba(000, 000, 000, 0.5), inset 0 0 2px rgba(255, 255, 255, 1);
+    box-shadow: 0 1px 3px rgba(000, 000, 000, 0.5), inset 0 0 2px rgba(255, 255, 255, 1);
+    text-shadow: 0 -1px 0 rgba(000, 000, 000, 0.4), 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+@media screen and (min-width: 960px) {
+    .couponLotteryImage {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 960px) {
+    .couponLotteryImage {
+        width: 100%;
+    }
+}
+/* ↑ coupon */
+
+/* ↓ img slider */
+
+.imgSliderArea {
+    position: relative;
+}
+
+.imgSlider { /* スライダーの表示枠 */
+    margin: 0 auto;
+    overflow: hidden; /* 横スクロールバーを隠すため */
+}
+
+.imgSliderScroll { /* スクロール枠 */
+    overflow-x: hidden; /* 横スクロール可能にする */
+}
+
+.imgSliderPanelsFrame {
+    display: table;
+}
+
+.imgSliderPanelFrame {
+    display: table-cell;
+}
+
+.imgSliderPanel {
+    display: table;
+}
+
+.imgSliderContents {
+    display: table-cell;
+}
+
+/* .imgSliderContent {}  <- デザイン調整用class 必要があれば使用する */
+
+.imgSliderLinkDisabled {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}
+
+.imgSliderArrow {
+    position: absolute;
+    outline: 0;
+    z-index: 9999;
+}
+
+.imgSliderArrowLeft {
+    background: url(../img/common/arrow_left.png) no-repeat left top;
+    background-size:cover;
+}
+
+.imgSliderArrowRight {
+    background: url(../img/common/arrow_right.png) no-repeat right top;
+    background-size:cover;
+}
+
+/* ↑ img slider */
+
+/* ヘッダーの固定 */
+.headerFixed {
+    position: fixed;
+    z-index: 1000; /* ベースより前面 & モーダルより後ろ */
+}
+.dummyHeader {
+    height: 4.8rem;
+}
+
+.p-footer__nav__link, .p-footer__nav__link:link, .p-footer__nav__link:visited, .p-footer__nav__link:hover, .p-footer__nav__link:active, .p-footer__nav__link:focus {
+    color: #fbfbfb !important;
+}
+
+.p-global-menu__link, .p-global-menu__link:link, .p-global-menu__link:visited, .p-global-menu__link:hover, .p-global-menu__link:active, .p-global-menu__link:focus {
+    color: #fbfbfb !important;
+}
+
+.c-button, .c-button:link, .c-button:visited, .c-button:hover, .c-button:active, .c-button:focus {
+    color: #fbfbfb !important;
+}
+
+.modal-content #sb-site {
+    background-color: white;
+    border-radius: .5rem;
+}
+
+.modal-content {
+    border: none;
+}
